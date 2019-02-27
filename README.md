@@ -1,31 +1,43 @@
 ##SQL
+
 **Sql** is a structured query language used for Storing,Manipulating, and Retrieving data in data base house
+
 **SQL  SELECT**:
+
 SELECT statement is used to select data from database
+
 **Example**:
+
 Lets say we have **Customers Table**
+
 |Customer_id|CustomerName|City|Postalcode|Country|
 |----|-----|----|----|----|
 |1|Abhishek|Delhi|505213|India|
 |2|Rakesh|Noida|505217|India|
 |3|Nandan|Ambala|505210|India|
 |4|kalyan|New York|003695|United States|
+
 The following SQL statement selects the "CustomerName" and "City" columns from the "Customers" table
+
 SELECT CustomerName, City from Customers
+
 And output of that query would be 
+
 |CustomerName|| City| 
 |------|-----|
 |Abhishek|Delhi|
 |Rakesh|Noida|
 |Nandan|Ambala|
 |kalyan|New York| 
+
 To select all columns we have to write 
 SELECT * FROM Customers 
 
 **SQL WHERE**:
+
 The WHERE clause is used to extract only those records that fulfill a specified condition.
 The following SQL statement selects all the customers from the country "United States", in the "Customers" table:
-SELECT *FROM Customers  
+SELECT * FROM Customers  
 WHERE Country=”United States” 
 We get the following Output 
 |Cutomer_id|Customername|City|Postalcode|Country|
