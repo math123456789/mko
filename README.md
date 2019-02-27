@@ -23,7 +23,7 @@ SELECT CustomerName, City from Customers
 
 And output of that query would be 
 
-|CustomerName|| City| 
+|CustomerName| City| 
 |------|-----|
 |Abhishek|Delhi|
 |Rakesh|Noida|
