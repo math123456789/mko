@@ -78,7 +78,8 @@ The following SQL statement selects all orders with Customer information:
 
 SELECT Orders.OrderID, Customers.CustomerName
 FROM Orders 
-INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+INNER JOIN Customers ON 
+Orders.CustomerID = Customers.CustomerID;
 
 The output would be 
 
