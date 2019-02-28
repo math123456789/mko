@@ -124,7 +124,7 @@ RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
  
 |CustomerName|Orders_id|
 |----|-----|
-|Kalyan||1003|
+|Kalyan|1003|
 |Nandan|2006|
 |Rakesh|3006|
 |NULL|4006|
