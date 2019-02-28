@@ -1,8 +1,8 @@
-##SQL
+# # SQL
 
-**Sql** is a structured query language used for Storing,Manipulating, and Retrieving data in data base house
+**SQL** is a structured query language used for Storing,Manipulating, and Retrieving data in data base house
 
-**SQL  SELECT**:
+**SQL SELECT**:
 
 SELECT statement is used to select data from database
 
@@ -17,7 +17,7 @@ Lets say we have **Customers Table**
 |3|Nandan|Ambala|505210|India|
 |4|kalyan|New York|003695|United States|
 
-The following SQL statement selects the "CustomerName" and "City" columns from the "Customers" table
+The following SQL query selects the "CustomerName" and "City" columns from the "Customers" table
 
 SELECT CustomerName, City from Customers
 
