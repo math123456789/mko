@@ -31,13 +31,14 @@ And output of that query would be
 |kalyan|New York| 
 
 To select all columns we have to write 
+
 SELECT * FROM Customers 
 
 **SQL WHERE**:
 
 The WHERE clause is used to extract only those records that fulfill a specified condition.
 
-The following SQL statement selects all the customers from the country "United States", in the "Customers" table:
+The following SQL statement selects all the Customers from the country "United States", in the "Customers" table:
 
 SELECT * FROM Customers
 
@@ -53,7 +54,7 @@ We get the following Output
  
 A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
-There are different types of joins 
+There are Different types of joins 
 
 + **INNER JOIN**: The INNER JOIN keyword selects records that have matching values in both tables
 
@@ -74,7 +75,7 @@ And we have **Customers table**
 |3|Nandan|Ambala|505210|India|
 |4|kalyan|New York|003695|United States|
 
-The following SQL statement selects all orders with Customer information:  
+The following SQL sQuery selects all orders with Customer information:  
 
 SELECT Orders.OrderID, Customers.CustomerName
 FROM Orders 
@@ -95,7 +96,7 @@ The output would be
 
 We use Customers and Orders table 
 
-The following SQL statement will select all customers, and any orders they might have
+The following SQL Query will select all customers, and any orders they might have
 
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers 
@@ -137,7 +138,7 @@ RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 
 **SQL INSERT** : The INSERT INTO statement is used to insert new records in a table.
 
-**Example**: We Take Customers table 
+**Example**: We Have Customers table 
 
 |Customer_id|CustomerName|City|Postalcode|Country|
 |----|-----|----|----|----|
