@@ -1,4 +1,4 @@
-# # SQL
+# SQL
 
 **SQL** is a structured query language used for Storing,Manipulating, and Retrieving data in data base house
 
