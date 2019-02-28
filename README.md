@@ -65,6 +65,7 @@ Lets create **Orders table**
 |1003|4|1996-09-18|6|
 |2003|3|1996-03-21|3|
 |3006|2|1996-08-19|4|
+|4006|6|1996-03-16|7|
 
 And we have **Customers table**
 
@@ -126,7 +127,7 @@ RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 |Kalyan||1003|
 |Nandan|2006|
 |Rakesh|3006|
-|NULL|3009|
+|NULL|4006|
 
 **SQL UNION** : The UNION operator is used to combine the result-set of two or more SELECT statements.
 
