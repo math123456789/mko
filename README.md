@@ -127,3 +127,63 @@ RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 |Rakesh|3006|
 |NULL|3009|
 
+**SQL UNION** : The UNION operator is used to combine the result-set of two or more SELECT statements.
+
++ Each SELECT statement within UNION must have the same number of columns
+
++ The columns must also have similar data types
+
++ The columns in each SELECT statement must also be in the same order 
+
+**SQL INSERT** : The INSERT INTO statement is used to insert new records in a table.
+
+**Example**: We Take Customers table 
+
+|Customer_id|CustomerName|City|Postalcode|Country|
+|----|-----|----|----|----|
+|1|Abhishek|Delhi|505213|India|
+|2|Rakesh|Noida|505217|India|
+|3|Nandan|Ambala|505210|India|
+|4|kalyan|New York|003695|United States|
+
+To insert New Rows 
+
+INSERT INTO Customers(Customer_id,CustomerName,City,Postalcode,Country)
+Values(5,Deva,Mumbai,569879,India) 
+
+The output of the Given Query would be 
+
+|Customer_id|CustomerName|City|Postalcode|Country|
+|----|-----|----|----|----|
+|1|Abhishek|Delhi|505213|India|
+|2|Rakesh|Noida|505217|India|
+|3|Nandan|Ambala|505210|India|
+|4|kalyan|New York|003695|United States|
+|5|Deva|Mumbai|569879|India| 
+
+**SQL UPDATE**: The UPDATE statement is used to modify the existing records in a table 
+
+Example:
+
+|Customer_id|CustomerName|City|Postalcode|Country|
+|----|-----|----|----|----|
+|1|Abhishek|Delhi|505213|India|
+|2|Rakesh|Noida|505217|India|
+|3|Nandan|Ambala|505210|India|
+|4|kalyan|New York|003695|United States|
+
+The following SQL statement updates the first customer (CustomerID = 1) with a new contact person and a new city.
+
+UPDATE Customers
+SET Contactname=”Ravi” ,City=”Rome”
+WHERE Customer_id=1 
+
+The following would be the output of Customers table
+
+|Customer_id|CustomerName|City|Postalcode|Country|
+|----|-----|----|----|----|
+|1Ravi|Rome|505213|India|
+|2|Rakesh|Noida|505217|India|
+|3|Nandan|Ambala|505210|India|
+|4|kalyan|New York|003695|United States|
+
