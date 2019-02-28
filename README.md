@@ -75,7 +75,7 @@ And we have **Customers table**
 |3|Nandan|Ambala|505210|India|
 |4|kalyan|New York|003695|United States|
 
-The following SQL sQuery selects all orders with Customer information:  
+The following SQL Query selects all orders with Customer information:  
 
 SELECT Orders.OrderID, Customers.CustomerName
 FROM Orders 
@@ -147,7 +147,7 @@ RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 |3|Nandan|Ambala|505210|India|
 |4|kalyan|New York|003695|United States|
 
-To insert New Rows 
+To insert New Rows we write the following Query
 
 INSERT INTO Customers(Customer_id,CustomerName,City,Postalcode,Country)
 Values(5,Deva,Mumbai,569879,India) 
@@ -183,7 +183,7 @@ The following would be the output of Customers table
 
 |Customer_id|CustomerName|City|Postalcode|Country|
 |----|-----|----|----|----|
-|1Ravi|Rome|505213|India|
+|1|Ravi|Rome|505213|India|
 |2|Rakesh|Noida|505217|India|
 |3|Nandan|Ambala|505210|India|
 |4|kalyan|New York|003695|United States|
